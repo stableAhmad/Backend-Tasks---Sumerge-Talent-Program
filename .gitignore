@@ -1,0 +1,17 @@
+
+
+
+/task1-OOP/quiz/target/
+
+# IDE specific files
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
