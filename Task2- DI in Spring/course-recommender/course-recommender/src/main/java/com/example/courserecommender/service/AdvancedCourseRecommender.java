@@ -4,7 +4,7 @@ import com.example.courserecommender.model.Course;
 import java.util.List;
 
 @Component
-public class AdvancedCoruseRecommender implements CourseRecommender {
+public class AdvancedCourseRecommender implements CourseRecommender {
     @Override
     public List<Course> recommendCourses() {
         // returning mock values

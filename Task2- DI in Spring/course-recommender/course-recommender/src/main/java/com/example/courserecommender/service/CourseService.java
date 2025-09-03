@@ -1,6 +1,4 @@
 package com.example.courserecommender.service;
-
-import com.example.courserecommender.service.CourseRecommender; // your interface
 import com.example.courserecommender.model.Course;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
