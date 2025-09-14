@@ -1,0 +1,15 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+CourseRecommender,com.example.courserecommender.config,CourseRecommenderConfig,0,7,0,0,0,2,0,2,0,2
+CourseRecommender,com.example.courserecommender.config,DataSourceConfig,0,26,0,0,0,8,0,3,0,3
+CourseRecommender,com.example.courserecommender.model,Assessment,33,0,0,0,14,0,8,0,8,0
+CourseRecommender,com.example.courserecommender.model,Rating,35,0,0,0,14,0,8,0,8,0
+CourseRecommender,com.example.courserecommender.model,CourseAuthorJunction,42,0,0,0,15,0,8,0,8,0
+CourseRecommender,com.example.courserecommender.model,CourseAuthorKey,40,0,0,0,12,0,7,0,7,0
+CourseRecommender,com.example.courserecommender.model,Author,43,0,0,0,18,0,10,0,10,0
+CourseRecommender,com.example.courserecommender.model,Course,21,19,0,0,9,8,6,3,6,3
+CourseRecommender,com.example.courserecommender,CourseRecommenderApplication,71,3,6,0,15,1,4,1,1,1
+CourseRecommender,com.example.courserecommender.controller,CourseController,0,30,0,0,0,11,0,6,0,6
+CourseRecommender,com.example.courserecommender.service,BeginnerCourseRecommender,20,3,0,0,1,1,1,1,1,1
+CourseRecommender,com.example.courserecommender.service,AdvancedCourseRecommender,14,3,0,0,1,1,1,1,1,1
+CourseRecommender,com.example.courserecommender.service,CourseService,5,55,1,1,1,18,1,7,0,7
+CourseRecommender,com.example.courserecommender.repository,CourseRepository,119,6,2,0,16,3,8,1,7,1

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CourseRecommenderApplication.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">CourseRecommender</a> &gt; <a href="index.source.html" class="el_package">com.example.courserecommender</a> &gt; <span class="el_source">CourseRecommenderApplication.java</span></div><h1>CourseRecommenderApplication.java</h1><pre class="source lang-java linenums">package com.example.courserecommender;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.example.courserecommender.repository.CourseRepository;
+import com.example.courserecommender.service.CourseService;
+import com.example.courserecommender.model.Course;
+// import com.outerbean.outerbean.outerbean.ConcreteOuterBean;
+
+@SpringBootApplication
+<span class="fc" id="L11">public class CourseRecommenderApplication {</span>
+
+	public static void main(String[] args) {
+
+		// TESTING SPRING DI
+<span class="nc" id="L16">		var context = SpringApplication.run(CourseRecommenderApplication.class, args);</span>
+<span class="nc" id="L17">		System.out.println(&quot;I got the context&quot;);</span>
+<span class="nc" id="L18">		CourseService courseService = context.getBean(CourseService.class);</span>
+<span class="nc" id="L19">		var courses = courseService.getRecommendedCourses();</span>
+<span class="nc bnc" id="L20" title="All 2 branches missed.">		for (var course : courses) {</span>
+<span class="nc" id="L21">			System.out.println(course.getName());</span>
+<span class="nc" id="L22">		}</span>
+
+		// TESTING CRUD OPERATIONS
+
+		// courseService.addCourse(courses.get(0));
+		// courseService.addCourse(courses.get(1));
+		// courseService.addCourse(courses.get(2));
+
+<span class="nc" id="L30">		Course myNewCourse = new Course(&quot;Advanced Programming&quot;, &quot;Learn advanced programming concepts&quot;, 4);</span>
+<span class="nc" id="L31">		myNewCourse.setId(&quot;1&quot;); // assuming the course with id 1 exists</span>
+		// courseService.updateCourse(myNewCourse);
+
+<span class="nc" id="L34">		Course fetchedCourse = courseService.viewCourse(5);</span>
+<span class="nc bnc" id="L35" title="All 2 branches missed.">		System.out.println(&quot;Fetched Course: &quot; + (fetchedCourse != null ? fetchedCourse.getName() : &quot;Not Found&quot;));</span>
+
+		// courseService.deleteCourse(3);
+
+		// testing db connection
+<span class="nc" id="L40">		CourseRepository repo = context.getBean(CourseRepository.class);</span>
+<span class="nc" id="L41">		int result = repo.testConnection();</span>
+<span class="nc bnc" id="L42" title="All 2 branches missed.">        System.out.println(&quot;DB Connection test result: &quot; + (result == 1 ? &quot;Success&quot; : &quot;Failure&quot;));</span>
+
+<span class="nc" id="L44">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

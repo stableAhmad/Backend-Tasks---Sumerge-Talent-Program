@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CourseAuthorJunction.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">CourseRecommender</a> &gt; <a href="index.source.html" class="el_package">com.example.courserecommender.model</a> &gt; <span class="el_source">CourseAuthorJunction.java</span></div><h1>CourseAuthorJunction.java</h1><pre class="source lang-java linenums">package com.example.courserecommender.model;
+
+public class CourseAuthorJunction {
+    private CourseAuthorKey id;
+    private Course course;
+    private Author author;
+
+    // Constructors
+<span class="nc" id="L9">    public CourseAuthorJunction() {}</span>
+
+<span class="nc" id="L11">    public CourseAuthorJunction(Course course, Author author) {</span>
+<span class="nc" id="L12">        this.course = course;</span>
+<span class="nc" id="L13">        this.author = author;</span>
+        // we use the ptr
+<span class="nc" id="L15">        this.id = new CourseAuthorKey(course.getId(), author.getId());</span>
+<span class="nc" id="L16">    }</span>
+
+    // Getters &amp; Setters
+    public CourseAuthorKey getId() {
+<span class="nc" id="L20">        return id;</span>
+    }
+
+    public void setId(CourseAuthorKey id) {
+<span class="nc" id="L24">        this.id = id;</span>
+<span class="nc" id="L25">    }</span>
+
+    public Course getCourse() {
+<span class="nc" id="L28">        return course;</span>
+    }
+
+    public void setCourse(Course course) {
+<span class="nc" id="L32">        this.course = course;</span>
+<span class="nc" id="L33">    }</span>
+
+    public Author getAuthor() {
+<span class="nc" id="L36">        return author;</span>
+    }
+
+    public void setAuthor(Author author) {
+<span class="nc" id="L40">        this.author = author;</span>
+<span class="nc" id="L41">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

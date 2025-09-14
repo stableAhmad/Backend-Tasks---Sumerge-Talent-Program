@@ -1,0 +1,15 @@
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\config\CourseRecommenderConfig.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\config\DataSourceConfig.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\controller\CourseController.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\CourseRecommenderApplication.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\model\Assessment.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\model\Author.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\model\Course.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\model\CourseAuthorJunction.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\model\CourseAuthorKey.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\model\Rating.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\repository\CourseRepository.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\service\AdvancedCourseRecommender.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\service\BeginnerCourseRecommender.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\service\CourseRecommender.java
+E:\github mirror\sumerge\Backend-tasks\Task 6 - testing\course-recommender\course-recommender\src\main\java\com\example\courserecommender\service\CourseService.java
