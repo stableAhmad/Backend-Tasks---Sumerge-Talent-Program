@@ -1,0 +1,15 @@
+com\example\courserecommender\controller\CourseController.class
+com\example\courserecommender\repository\CourseRepository.class
+com\example\courserecommender\config\CourseRecommenderConfig.class
+com\example\courserecommender\service\BeginnerCourseRecommender.class
+com\example\courserecommender\config\DataSourceConfig.class
+com\example\courserecommender\service\CourseRecommender.class
+com\example\courserecommender\model\CourseAuthorJunction.class
+com\example\courserecommender\service\AdvancedCourseRecommender.class
+com\example\courserecommender\service\CourseService.class
+com\example\courserecommender\model\Author.class
+com\example\courserecommender\model\Course.class
+com\example\courserecommender\model\Assessment.class
+com\example\courserecommender\model\Rating.class
+com\example\courserecommender\CourseRecommenderApplication.class
+com\example\courserecommender\model\CourseAuthorKey.class
